@@ -1,1 +1,66 @@
+/* 共通のスタイル */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
 
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+nav {
+    background-color: #444;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 0.5rem;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* スマートフォン用のスタイル */
+@media screen and (max-width: 767px) {
+    header {
+        font-size: 1.5rem;
+    }
+    nav {
+        flex-direction: column;
+    }
+    nav a {
+        margin: 0.5rem;
+    }
+    main {
+        padding: 1rem;
+    }
+    section {
+        margin-bottom: 1rem;
+    }
+}
+V
