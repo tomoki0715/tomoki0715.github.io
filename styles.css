@@ -4,10 +4,12 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    color: #333;
+    background-color: #f0f0f0;
 }
 
 header {
-    background-color: #333;
+    background-color: #007bff;
     color: #fff;
     padding: 1rem;
     text-align: center;
@@ -18,7 +20,7 @@ h1 {
 }
 
 nav {
-    background-color: #444;
+    background-color: #0056b3;
     display: flex;
     justify-content: center;
     padding: 0.5rem;
@@ -39,7 +41,7 @@ section {
 }
 
 footer {
-    background-color: #333;
+    background-color: #007bff;
     color: #fff;
     padding: 1rem;
     text-align: center;
@@ -63,4 +65,3 @@ footer {
         margin-bottom: 1rem;
     }
 }
-V
