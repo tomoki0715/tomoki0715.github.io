@@ -54,6 +54,18 @@ footer {
     transition: opacity 1s, transform 1s;
 }
 
+/* 派手なアニメーション */
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
 /* スマートフォン用のスタイル */
 @media screen and (max-width: 767px) {
     header {
@@ -72,9 +84,7 @@ footer {
         margin-bottom: 1rem;
     }
     /* スクロールアニメーション用のクラス */
-.animate-on-scroll {
-    opacity: 0;
-    transform: translateY(50px);
-    transition: opacity 1s, transform 1s;
-}
+    .animate-on-scroll {
+        animation: slideIn 1s forwards;
+    }
 }
