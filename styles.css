@@ -47,6 +47,13 @@ footer {
     text-align: center;
 }
 
+/* スクロールアニメーション用のクラス */
+.animated {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s, transform 1s;
+}
+
 /* スマートフォン用のスタイル */
 @media screen and (max-width: 767px) {
     header {
@@ -64,4 +71,10 @@ footer {
     section {
         margin-bottom: 1rem;
     }
+    /* スクロールアニメーション用のクラス */
+.animated {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s, transform 1s;
+}
 }
