@@ -2,7 +2,7 @@
 
 // スクロールイベントの監視
 window.addEventListener('scroll', function() {
-    const sections = document.querySelectorAll('.scroll-section');
+    const sections = document.querySelectorAll('.animate-on-scroll');
 
     // 画面の上部からのスクロール量を取得
     const scrollPosition = window.scrollY;
