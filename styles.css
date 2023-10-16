@@ -48,7 +48,7 @@ footer {
 }
 
 /* スクロールアニメーション用のクラス */
-.animated {
+.animate-on-scroll {
     opacity: 0;
     transform: translateY(50px);
     transition: opacity 1s, transform 1s;
@@ -72,7 +72,7 @@ footer {
         margin-bottom: 1rem;
     }
     /* スクロールアニメーション用のクラス */
-.animated {
+.animate-on-scroll {
     opacity: 0;
     transform: translateY(50px);
     transition: opacity 1s, transform 1s;
